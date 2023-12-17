@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  background: rgba(0, 162, 255, 0.47);
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.heading1 {
+  font-size: 4rem;
+  /* color: var(--text-color); */
+}
+.heading2 {
+  /* color: var(--text-color); */
+  font-size: 2rem;
+}
+.p1-paragraph {
+  font-size: 2rem;
+  /* color: var(--text-color); */
+}
+.p2-paragraph {
+  font-size: 2rem;
+  /* color: var(--text-color); */
+}
