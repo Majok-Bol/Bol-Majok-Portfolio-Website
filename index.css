@@ -5,7 +5,7 @@ body {
 }
 #navbar {
   background: purple;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 #homepage {
@@ -18,33 +18,125 @@ body {
   height: 100vh;
 }
 
-a {
-  font-size: 2rem;
+.home-link {
+  font-size: 1.5rem;
   text-decoration: none;
   color: white;
 }
+.about-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+.projects-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+.contact-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+.icon-link {
+  font-size: 0.7rem;
+  margin: 2rem;
+}
+.icon-list {
+  margin: 2rem;
+}
+.a-link {
+  color: blue;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 2rem;
+}
+
 .nav-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .heading1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: black;
   margin: 0;
-  padding: 0;
-  animation-name: heading1;
+  padding: 2rem;
+  text-align: center;
 }
 
 .heading2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
+  margin: 0;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
 }
 .p1-paragraph {
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
+  margin: 0;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
 }
-.p2-paragraph {
+.background-heading {
   font-size: 2rem;
   color: black;
+  text-align: center;
+}
+.background-paragraph,
+.additional-background-info,
+.additional-text {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  padding: 0;
+}
+.projects-heading {
+  font-size: 1.5rem;
+}
+.projects-paragraph {
+  font-size: 1.5rem;
+}
+@keyframes web {
+  0% {
+    color: red;
+  }
+  25% {
+    color: red;
+  }
+  40% {
+    color: black;
+  }
+  50% {
+    color: aqua;
+  }
+  60% {
+    color: blue;
+  }
+  65% {
+    color: purple;
+  }
+  75% {
+    color: deepskyblue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.web {
+  color: red;
+  animation-name: web;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.name-1 {
+  color: red;
 }
